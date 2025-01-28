@@ -1,106 +1,128 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            My Portfolio
-        </title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
-            rel='stylesheet'>
-    </head>
-    <body>
 
-        <header class="header">
-            <a href="#home" class="logo"> Swapnil
-                <span>Thawale</span>
-            </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        My Portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/profilepic.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
 
-            <i class="bx bx-menu" id="menu-icon"></i>
+<body>
 
-            <nav class="navbar">
-                <a href="#home" class="active">Home</a>
-                <a href="#education">Education</a>
-                <a href="#skills">Projects</a>
-                <a href="#projects">Skills</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </header>
+    <header class="header">
+        <a href="#home" class="logo"> Swapnil
+            <span>Thawale</span>
+        </a>
 
-        <section class="home" id="home">
-            <div class="home-content">
-                <h1>Hi ! It's <span>Swapnil</span></h1>
-                <h3 class="text-animation">I'm a <span></span></h3>
-                <p>Proactive Computer Science student with extensive experience
-                    in Software Development. Proven track record in creating
-                    impactful projects, including the Connect for Change app, an
-                    Amazon clone app, and an Exam center database. Completed an
-                    internship at SRS Infosystems, where I developed a Google
-                    Sheets add-on, enhanced client websites, and designed UI/UX
-                    for an employee monitoring app.</p>
+        <i class="bx bx-menu" id="menu-icon"></i>
 
-                <div class="social-icons">
-                    <a href="#"><i class="bx bxl-linkedin"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
-                    <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-                    <a href="#"><i class="bx bxl-twitter"></i></a>
-                </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#project">Projects</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-                <div class="btn-group">
-                    <a href="#" class="btn">Hire</a>
-                    <a href="#contact" class="btn">Contact</a>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi ! It's <span>Swapnil</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Proactive Computer Science student with extensive experience
+                in Software Development. Proven track record in creating
+                impactful skill, including the Connect for Change app, an
+                Amazon clone app, and an Exam center database. Completed an
+                internship at SRS Infosystems, where I developed a Google
+                Sheets add-on, enhanced client websites, and designed UI/UX
+                for an employee monitoring app.</p>
+            <!-- <p>
+                    I am a B.Tech graduate in Computer Engineering with
+                    experience as a Software Developer at SRS Infosystems Pvt.
+                    Ltd., where I contributed to an automated quotation system
+                    and an in-house React application. I have developed several
+                    personal projects, including an Amazon clone, Java-based
+                    games (Flappy Bird, Snake), and JavaScript applications
+                    (Sudoku, currency converter), along with my own portfolio
+                    website. In addition to my technical skills, I have strong
+                    leadership experience, having part of organizing team of
+                    Vidarbha’s
+                    first CTF
+                    event and captained my college volleyball team. I also led a
+                    team to secure a 2nd runner-up position in multiple sports
+                    competitions, demonstrating my ability to lead and
+                    collaborate. In my free time, I enjoy writing short stories,
+                    which enhances my creative problem-solving abilities.
+                </p> -->
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/swapnil-thawale/"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/Swapnil213"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/swapnil__thawale/"><i class="bx bxl-instagram-alt"></i></a>
+                <!-- <a href="#"><i class="bx bxl-twitter"></i></a> -->
+            </div>
+
+            <div class="btn-group">
+                <a href="resume.pdf" download class="btn">Download
+                    Resume</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="images/profile.gif" alt="img">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                    <h3>SSC (10<sup>th</sup>)</h3>
+                    <p>Shirdi Sai High School, Mouda<br>
+                        Scored 91.60%</p>
                 </div>
             </div>
-            <div class="home-img">
-                <img src="img.jpg" alt="img">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>HSC (12<sup>th</sup>)</h3>
+                    <p>Nanaji Joshi Junior College, Shahapur<br>
+                        Scored 83.54%</p>
+                </div>
             </div>
-        </section>
 
-        <section class="education" id="education">
-            <h2 class="heading">Education</h2>
-
-            <div class="timeline-items">
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2018</div>
-                    <div class="timeline-content">
-                        <h3>SSC (10<sup>th</sup>)</h3>
-                        <p>From Shirdi Sai High School, Mouda<br>
-                            Scored 91.60%</p>
-                    </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>B.Tech(Computer Engineering)</h3>
+                    <p>St. Vincent Pallotti College of Engineering &
+                        Technology, Nagpur, Maharashtra <br> CGPA 8.31
+                    </p>
                 </div>
+            </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2020</div>
-                    <div class="timeline-content">
-                        <h3>HSC (12<sup>th</sup>)</h3>
-                        <p>From Nanaji Joshi Junior College, Shahapur<br>
-                            Scored 83.54%</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>B.Tech(Computer Engineering)</h3>
-                        <p>St. Vincent Pallotti College of Engineering &
-                            Technology, Nagpur, Maharashtra <br> CGPA 8.31
-                        </p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>Internship</h3>
-                        <p>Software Development Intern<br>
-                            SRS Infosystems Pvt. Ltd.<br>
-                            • Quotation System Add-on Development: Created a
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>Software Development Intern<br>
+                        SRS Infosystems Pvt. Ltd.<br>
+                        <!-- • Quotation System Add-on Development: Created a
                             Google Sheets add-on using Google AppsScript, HTML,
                             and CSS. Conducted usability testing, designed a
                             template gallery, and expanded functionalities for
@@ -113,185 +135,430 @@
                             • Client Website Development: Developed and deployed
                             a client website using HTML, CSS, JavaScript, and
                             FileZilla.<br>
-                            • Acquired skills in full-stack development, UI/UX
+                            • Acquired projects in full-stack development, UI/UX
                             design, code optimization, and cloud integration,
                             significantly enhancing user experience and system
-                            performance.
-                        </p>
-                    </div>
+                            performance. -->
+                    </p>
                 </div>
-
             </div>
-        </section>
 
-        <section class="skills" id="skills">
+        </div>
+    </section>
+
+    <!-- <section class="projects" id="projects">
             <h2 class="heading">Projects</h2>
 
-            <div class="skills-container">
+            <div class="projects-container">
 
-                <div class="skills-box">
-                    <div class="skills-info">
+                <div class="projects-box">
+                    <div class="projects-info">
                         <h4>Client Website</h4>
                         <p>• Developed a dynamic website using HTML, CSS, and
                             JavaScript. Enabled image uploads, previews, and
                             order placements, customized according to client
                             specifications. Integrated Google Sheets for order
                             management and deployed with FileZilla.</p>
+
+                        <a href="https://www.acryprints.com/index.php">Show More</a>
+
                     </div>
                 </div>
 
-                <div class="skills-box">
-                    <div class="skills-info">
+                <div class="projects-box">
+                    <div class="projects-info">
                         <h4>Amazon Clone App</h4>
                         <p>• Created an Amazon clone app using Java and XML in
                             Android Studio. Implemented features for product
                             browsing, cart management, and purchases,
                             replicating Amazon’s UI/UX. Integrated Firebase for
                             authentication and real-time data management.</p>
+
+                        <a href="https://github.com/Swapnil213/Shopquick1">Show More</a>
+
                     </div>
                 </div>
 
-                <div class="skills-box">
-                    <div class="skills-info">
-                        <h4>Automated Quotation System</h4>
+                <div class="projects-box">
+                    <div class="projects-info">
+                        <h4>Quotation Add-on</h4>
                         <p>• Built an automated quotation system using Google
                             AppsScript for add-on development. Created a
                             template selection gallery, automated data
                             retrieval, and storage with Google Drive
                             integration.</p>
+
+                        <a href="https://docs.google.com/spreadsheets/d/1mWMLxR4b41I483ayogrkxg9MkIxv7TUCRCg8aK23MwI/edit?gid=1693317991#gid=1693317991">Show More</a>
+
                     </div>
                 </div>
 
-                <div class="skills-box">
-                    <div class="skills-info">
+                <div class="projects-box">
+                    <div class="projects-info">
                         <h4>Connect for Change App</h4>
                         <p>• Developed an app to connect users with NGOs for
                             verified and safe interactions. Utilized Java and
                             XML with Firebase for backend support. Each NGO has
                             a dedicated profile showcasing past work and contact
                             methods, including WhatsApp.</p>
+
+                        <a href="https://github.com/Swapnil213/NGO">Show More</a>
+
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <div class="projects-info">
+                        <h4>Flappy Bird</h4>
+                        <p>• Developed an app to connect users with NGOs for
+                            verified and safe interactions. Utilized Java and
+                            XML with Firebase for backend support. Each NGO has
+                            a dedicated profile showcasing past work and contact
+                            methods, including WhatsApp.</p>
+
+                        <a href="https://github.com/Swapnil213/flappy_bird_game">Show More</a>
+
+                    </div>
+                </div>
+
+                <div class="projects-box">
+                    <div class="projects-info">
+                        <h4>Snake Game</h4>
+                        <p>• Developed an app to connect users with NGOs for
+                            verified and safe interactions. Utilized Java and
+                            XML with Firebase for backend support. Each NGO has
+                            a dedicated profile showcasing past work and contact
+                            methods, including WhatsApp.</p>
+
+                        <a href="https://github.com/Swapnil213/snake_game">Show More</a>
+
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="projects" id="projects">
-            <div class="projects-box">
-                <h2 class="heading">Skills</h2>
+    <section class="project" id="project">
+        <h2 class="heading">Projects</h2>
 
-                <div class="wrapper">
-                    <div class="projects-item">
-                        <!-- <img src="img.jpg" alt> -->
-                        <h2>Java</h2>
-                        <div class="rating">
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Commodi, magni neque excepturi sunt fuga
-                            repellendus repellat facere in. Sit odit tempora
-                            laboriosam. Corporis repudiandae perferendis
-                            exercitationem eius, dolores obcaecati pariatur?</p>
+        <div class="project-container">
+            <!-- filter buttons -->
+            <div class="filter-buttons">
+                <button class="active" data-name="all">All</button>
+                <button data-name="java">Java</button>
+                <button data-name="web">Web</button>
+                <button data-name="android">Android</button>
+                <button data-name="other">Other</button>
+            </div>
+
+            <!-- Images Cards -->
+            <div class="filterable-cards">
+                <div class="card" data-name="web">
+                    <img src="images/client_website.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Client Website</h6>
+                        <p>
+                            • A client website developed to enable users to create and order custom acrylic frames from
+                            a variety of options. The platform offers a user-friendly interface where customers can
+                            personalize frames by selecting sizes, colors, and finishes, and previewing their designs in
+                            real time. With a streamlined ordering process, users can easily add customized frames to
+                            the cart and proceed to checkout. This website combines an intuitive design with seamless
+                            functionality, enhancing the user experience for creating unique acrylic frames tailored to
+                            their style and needs.
+                            <br><br>
+
+                            •<a href="https://www.acryprints.com/index.php">Show
+                                More</a>
+                        </p>
                     </div>
+                </div>
 
-                    <div class="projects-item">
-                        <!-- <img src="img.jpg" alt> -->
-                        <h2>Html</h2>
-                        <div class="rating">
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Commodi, magni neque excepturi sunt fuga
-                            repellendus repellat facere in. Sit odit tempora
-                            laboriosam. Corporis repudiandae perferendis
-                            exercitationem eius, dolores obcaecati pariatur?</p>
+                <div class="card" data-name="web">
+                    <img src="images/portfolio.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Portfolio</h6>
+                        <p>• A modern and responsive portfolio website designed to showcase my educational background,
+                            skill set, and project gallery, providing a comprehensive view of my journey and expertise
+                            as a developer. With a clean, intuitive layout, the site features an educational timeline,
+                            interactive skill displays, and a project gallery with detailed descriptions, all crafted to
+                            engage potential employers, clients, and collaborators effectively.
+                            <br><br>
+                            • <a href="#">Show
+                                More</a>
+                        </p>
                     </div>
+                </div>
 
-                    <div class="projects-item">
-                        <!-- <img src="img.jpg" alt> -->
-                        <h2>CSS</h2>
-                        <div class="rating">
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                            <i class="bx bxs-star" id="star"></i>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Commodi, magni neque excepturi sunt fuga
-                            repellendus repellat facere in. Sit odit tempora
-                            laboriosam. Corporis repudiandae perferendis
-                            exercitationem eius, dolores obcaecati pariatur?</p>
+                <div class="card" data-name="java">
+                    <img src="images/flappy_bird.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">flappy_bird_game</h6>
+                        <p>• A simple yet engaging Flappy Bird game clone developed entirely in Java, featuring smooth
+                            gameplay and responsive controls. This project replicates the core mechanics of the classic
+                            game, allowing players to control a bird navigating through obstacles. The game includes
+                            collision detection, score tracking, and randomized obstacle generation, delivering a fun
+                            and challenging experience. This project highlights my skills in Java programming,
+                            object-oriented design, and basic game development principles.
+                            <br><br>
+                            • <a href="https://github.com/Swapnil213/flappy_bird_game">Show
+                                More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-name="java">
+                    <img src="images/snake_game.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">snake_game</h6>
+                        <p>• A classic Snake game recreated in Java, featuring smooth movement, responsive controls, and
+                            dynamic gameplay. Players control a snake that grows in length with each food item consumed,
+                            while avoiding collisions with walls and the snake's own body. The game includes score
+                            tracking, random food placement, and game-over detection, providing an engaging experience.
+                            This project demonstrates my abilities in Java programming, game logic implementation, and
+                            object-oriented principles.
+                            <br><br>
+                            • <a href="https://github.com/Swapnil213/snake_game">Show
+                                More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-name="android">
+                    <img src="images/amazon.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Amazon Clone</h6>
+                        <p>• An Amazon clone app built on Android Studio using XML and Java for the frontend and
+                            Firebase for backend integration, designed to replicate the essential features of an
+                            e-commerce platform. This app allows users to browse products, view details, add items to
+                            the cart, and manage orders, all with a user-friendly interface. Firebase supports user
+                            authentication, real-time database management, and secure storage, ensuring a seamless
+                            shopping experience. This project demonstrates my skills in mobile app development, UI/UX
+                            design, and backend integration with Firebase to create a functional and
+                            interactive application.</p>
+                        <br><br>
+                        • <a href="https://github.com/Swapnil213/Shopquick1">Show More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-name="android">
+                    <img src="images/CFC.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Connect For Change</h6>
+                        <p>• Connect for Change is a mobile app designed to help users discover and connect with nearby
+                            registered NGOs for donation-related interactions. With an intuitive interface, users can
+                            browse profiles of local NGOs, view their causes, and initiate chats for seamless
+                            communication about donation needs and opportunities. The app bridges the gap between donors
+                            and NGOs, simplifying the donation process and fostering community engagement. This project
+                            highlights my skills in app development, user experience design, and backend integration to
+                            support meaningful connections.
+                            <br><br>
+                            • <a href="https://github.com/Swapnil213/NGO">Show
+                                More</a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="card" data-name="other">
+                    <img src="images/quotation.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Quotation Add-on</h6>
+                        <p>• A custom Quotation Add-on developed for Google Sheets, enabling users to efficiently create
+                            and manage quotations. The add-on features a template gallery from which users can select
+                            and customize layouts, add specific details, and generate professional-looking quotations.
+                            Integrated options allow users to add recipient information, store completed quotes, and
+                            seamlessly send them to the intended recipient. Built with Google Apps Script, this tool
+                            enhances usability, streamlines the quotation process, and optimizes document management
+                            within Google Drive.
+                            <br><br>
+                            • <a
+                                href="https://docs.google.com/spreadsheets/d/1mWMLxR4b41I483ayogrkxg9MkIxv7TUCRCg8aK23MwI/edit?gid=1693317991#gid=1693317991">Show
+                                More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" data-name="other">
+                    <img src="images/currency_converter.png" alt>
+                    <div class="card-body">
+                        <h6 class="card-title">Currency Converter</h6>
+                        <p>• A currency converter application built with HTML, CSS, and JavaScript, utilizing an API to
+                            fetch real-time exchange rates. This tool provides a simple and interactive interface where
+                            users can select currencies, input amounts, and instantly view conversions across multiple
+                            currencies. The application’s clean design and responsive layout ensure a smooth user
+                            experience on both desktop and mobile devices. This project demonstrates my skills in
+                            front-end development, API integration, and JavaScript for dynamic functionality.
+                            <br><br>
+                            • <a href="https://github.com/Swapnil213/currency_converter">Show
+                                More</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="achievementsContainer">
+        <h2 class="heading">Co-Curricular</h2>
+        <div class="achievements">
+            <div class="achievement">
+                <img src="images/university.jpg" alt="achievements" class="card-image">
+                <p class="badge leader">Leadership</p>
+                <h2 class="card-title">Lead College Volleyball
+                    in University Games</h2>
+            </div>
+
+            <div class="achievement">
+                <img src="images/collegiate.jpg" alt="achievements" class="card-image">
+                <p class="badge sport">Sports</p>
+                <h2 class="card-title">1st position in
+                    Intercollegite
+                    voleyball Game</h2>
+            </div>
+            <div class="achievement">
+                <img src="images/hostel-league.jpg" alt="achievements" class="card-image">
+                <p class="badge leader">Leadership</p>
+                <h2 class="card-title">Secure 2nd Runners Up
+                    place in Hostel League as a Captain</h2>
+            </div>
+            <div class="achievement">
+                <img src="images/ctf.jpg" alt="achievements" class="card-image">
+                <p class="badge club">Club</p>
+                <h2 class="card-title">Was a part of Organising
+                    Team of Vidarbha’s First CTF event</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="skill-box">
+            <h2 class="heading">Skills</h2>
+
+            <div class="wrapper">
+                <div class="skill-item">
+                    <h2>Java</h2>
+                    <img src="images/java.jpg">
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <!-- <i class="bx bxs-star" id="star"></i> -->
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <h2>Html</h2>
+                    <img src="images/html.png">
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <!-- <i class="bx bxs-star" id="star"></i> -->
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <h2>CSS</h2>
+                    <img src="images/css.jpg">
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <!-- <i class="bx bxs-star" id="star"></i> -->
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <h2>JS</h2>
+                    <img src="images/js.png">
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <!-- <i class="bx bxs-star" id="star"></i> -->
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <h2>SQL</h2>
+                    <img src="images/sql.png">
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <!-- <i class="bx bxs-star" id="star"></i>
+                            <i class="bx bxs-star" id="star"></i> -->
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="contact" id="contact">
-            <h2 class="heading">Contact <span>Me</span></h2>
-            <form action>
-                <div class="input-group">
-                    <div class="input-box">
-                        <input type="text" placeholder="Full Name">
-                        <input type="text" placeholder="Email">
-                    </div>
-                    <div class="input-box">
-                        <input type="number" placeholder="Phone Number">
-                        <input type="text" placeholder="Subject">
-                    </div>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="aacd792a-80f6-404d-8557-2274bf2e8be1">
+            <div class="input-group">
+                <div class="input-box">
+                    <input name="Full Name" type="text" placeholder="Full Name">
+                    <input name="Email" type="text" placeholder="Email">
                 </div>
+                <div class="input-box">
+                    <input name="number" type="number" placeholder="Phone Number">
+                    <input name="Subject" type="text" placeholder="Subject">
+                </div>
+            </div>
 
-                <div class="input-group-2">
-                    <textarea name id cols="30" rows="10"
-                        placeholder="Your Message">
+            <div class="input-group-2">
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message">
                     </textarea>
-                    <input type="submit" value="Send Message" class="btn">
-                </div>
-            </form>
-        </section>
-
-        <footer class="footer">
-            <div class="social">
-                <a href="#"><i class="bx bxl-linkedin"></i></a>
-                <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <input type="submit" value="Send Message" class="btn">
             </div>
+        </form>
+    </section>
 
-            <ul class="list">
-                <li>
-                    <a href="#">FAQ</a>
-                </li>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/swapnil-thawale/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/Swapnil213"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/swapnil__thawale/"><i class="bx bxl-instagram-alt"></i></a>
+            <!-- <a href="#"><i class="bx bxl-twitter"></i></a> -->
+        </div>
 
-                <li>
-                    <a href="#">Skills</a>
-                </li>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
 
-                <li>
-                    <a href="#">About Me</a>
-                </li>
+            <li>
+                <a href="#project">Projects</a>
+            </li>
 
-                <li>
-                    <a href="#">Contact</a>
-                </li>
+            <li>
+                <a href="#home">About Me</a>
+            </li>
 
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-            </ul>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
 
-            <p class="copyright">
-                @ Swapnil Thawale | All Rights Reserved
-            </p>
-        </footer>
-        <script src="script.js">
-        </script>
-    </body>
+            <li>
+                <a href="#skill">Skills</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            @ Swapnil Thawale | All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>

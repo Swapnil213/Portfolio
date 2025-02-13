@@ -415,7 +415,7 @@ span {
   color: var(--text-color);
 }
 .skill {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
 }
 .skill-box {
   background-size: cover;
@@ -442,7 +442,7 @@ span {
 .skill-item {
   min-height: 100px;
   max-width: 250px;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   border: 2px solid rgba(238, 238, 238, 0.2);
   border-radius: 3rem;
   margin: 0 2rem;
@@ -782,7 +782,7 @@ button.active {
   justify-content: flex-start;
   flex-direction: column;
   width: 100vw;
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   padding: 3vw 4vw;
 }
 
@@ -808,7 +808,7 @@ button.active {
   justify-content: center;
   flex-direction: column;
   padding: 10px;
-  background: var(--bg-color);
+  background: var(--second-bg-color);
 }
 
 .achievement:hover {

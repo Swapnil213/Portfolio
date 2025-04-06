@@ -863,6 +863,11 @@ button.active {
   background: #fff3cd;
 }
 
+.badge.creative {
+  color: #3f5cec;
+  background: #fff3cd;
+}
+
 @media (max-width: 800px) {
   .achievements {
     width: 100%;
